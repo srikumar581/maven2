@@ -15,6 +15,7 @@ public class Hello {
 		d=new FirefoxDriver();
 		d.get("https://accounts.google.com/SignUp?hl=en");
 		System.out.println("The Title of the Web Page:"+d.getTitle());
+		System.out.println("Committed again");
 		d.findElement(By.id("FirstName")).sendKeys("Sakhi");
 		d.close();
 	}
